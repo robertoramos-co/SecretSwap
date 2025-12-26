@@ -1,0 +1,152 @@
+.swap-app {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.swap-main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.swap-card {
+  background: #ffffff;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 24px rgba(17, 24, 39, 0.06);
+}
+
+.swap-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.swap-subtitle {
+  margin: 0.25rem 0 1.25rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.swap-alert {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  color: #9a3412;
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.swap-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.75rem 0;
+}
+
+.swap-label {
+  color: #374151;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.swap-input {
+  width: 14rem;
+  border: 1px solid rgba(17, 24, 39, 0.14);
+  border-radius: 12px;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.swap-input:focus {
+  border-color: rgba(37, 99, 235, 0.6);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.swap-value {
+  color: #111827;
+  font-weight: 600;
+}
+
+.swap-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.85rem;
+  word-break: break-all;
+  color: #111827;
+  background: #f3f4f6;
+  border-radius: 10px;
+  padding: 0.5rem 0.6rem;
+  max-width: 22rem;
+  text-align: right;
+}
+
+.swap-button {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.75rem;
+}
+
+.swap-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.swap-divider {
+  height: 1px;
+  background: rgba(17, 24, 39, 0.08);
+  margin: 1.25rem 0;
+}
+
+.swap-section-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.swap-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.swap-secondary {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid rgba(17, 24, 39, 0.14);
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  color: #111827;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.swap-secondary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.swap-status {
+  margin-top: 0.9rem;
+  color: #1f2937;
+  font-size: 0.95rem;
+}
+
+.swap-error {
+  margin-top: 0.9rem;
+  color: #b91c1c;
+  font-size: 0.95rem;
+}
+
